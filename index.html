@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Live currency converter</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <center>
+        <div class="card">
+            <h1>Live Currency Converter</h1>
+            <form onsubmit="convert()">
+                <label for="amt">Amt in $</label>
+                <input type="number" step="any" placeholder="Enter the amt in $" id="amt" class="dep">
+                <br><br>
+                <input type="submit" value="convert" class="btn">
+                <br><br>
+                <h2 id="msg"></h2>
+            </form>
+        </div>
+    </center>
+    
+</body>
+</html> 
